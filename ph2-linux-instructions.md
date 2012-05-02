@@ -14,7 +14,8 @@ These instructions have been tested for Ubuntu 12.04 LTS, but should work for an
 
 ## Create a directory where you will put your Python programs. 
 
-* It can be anywhere you like, but it's probably best to put it in your home folder, something like this, in your open terminal window:
+* It can be anywhere you like, but it's probably best to put it in your home folder. Something like this in your open terminal window should do the trick:
+
 	
 		cd ~
 		mkdir ph2-code
