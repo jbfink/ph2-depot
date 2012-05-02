@@ -1,0 +1,76 @@
+
+
+Linux Instructions
+
+
+
+Thanks to Karin Dalziel for providing the basis of this section. These
+instructions are for Ubuntu 7.10 ““Gutsy Gibbon””.
+
+
+
+ 1.	Back up your computer
+
+ 2.	Install Python v. 2.
+
+ a.	Click on ““system”” (upper left of the toolbar) ->
+Administration -> Synaptic Package Manager
+
+ b.	Go to ““Settings”” -> ““Repositories”” and make sure
+all the boxes are checked under the ““Ubuntu software”” tab
+
+ c.	Enter in your password
+
+ d.	Search for ““Python”” or ““Python2.7”” (searching
+just for ““Python”” helps find the most recent packages, and you
+can see other useful Python related packages).
+
+ e.	Check the packages ““python”” and ““python2.7”” (or
+whatever the latest number is). You might want to add
+““python2.7-doc”” and ““python2.7-examples”” too.
+
+ f.	Note, Python is already installed for some Ubuntu installations.
+
+ g.	Create a directory where you will keep your Python programs. One
+option is to name it ““src”” and put it in your home folder
+(/home/username/src/)
+
+ 3.	Install Beautiful Soup. Again, through synaptic, install the package
+““python-beautifulsoup““
+
+ 4.	Install Komodo Edit, which is a free and open source code editor.
+You can download a copy from the Komodo Edit website. Download the Linux
+version, double click the file to decompress it, and then read the
+installation instructions for Linux.
+
+ 5.	Start Komodo Edit. If you don’t see the Toolbox pane on the right
+hand side, choose View->Tabs->Toolbox. It doesn’t matter if the
+Project pane is open or not. Take some time to familiarize yourself with
+the layout of the Komodo editor. The Help file is quite good.
+
+ 6.	Configure Komodo Edit. Now you need to set up the editor so that you
+can run Python programs
+
+ a.	Choose Toolbox->Add->New Command. This will open a new dialog
+window. Rename your command to ““Run Python““. Under
+““Command,”” type:
+
+
+
+ b.	%(python) %f
+
+
+
+ c.	and under ““Start in,”” enter
+
+
+
+ d.	%D
+
+
+
+ e.	Click OK. Your new Run Python command should appear in the Toolbox
+pane
+
+
+
