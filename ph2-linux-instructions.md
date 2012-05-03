@@ -26,4 +26,12 @@ These instructions have been tested for Ubuntu 12.04 LTS, but should work for an
 * After installation, you will probably find Komodo Edit in your home directory at Komodo-Edit-7/bin/komodo. Open the home folder, go to the Komodo-Edit-7/bin directory, and click on **komodo**. You can also right click on the Komodo icon in your launcher and click _Lock to Launcher_ to have Komodo saved permanently in your launcher bar.
 
 
+## Make a "Run Python" Command in Komodo Edit
 
+* In Komodo Edit, click the gear icon under Toolbox and go to New Command.
+* In the top field type "Run Python File"
+* In the Command field, enter this:
+
+		%(python) %F
+
+* Then hit the OK button at the bottom of the Add Command window. 
