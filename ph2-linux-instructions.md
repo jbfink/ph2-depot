@@ -1,3 +1,7 @@
+<!---
+this is a comment that hopefully will not render in the text.
+-->
+
 # Linux Instructions
 
 These instructions have been tested for Ubuntu 12.04 LTS, but should work for any apt based system such as Debian or Linux Mint, provided you have sudo installed.
