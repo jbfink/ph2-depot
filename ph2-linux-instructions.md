@@ -1,5 +1,5 @@
 <!---
-this is a comment that hopefully will not render in the text.
+This file, like everything else in http://github.com/jbfink/ph2-depot, is in the public domain. See http://github.com/jbfink/ph2-depot/LICENSE for details.
 -->
 
 # Linux Instructions
